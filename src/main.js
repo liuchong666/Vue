@@ -8,5 +8,5 @@ Vue.use(ElementUI)
 
 new Vue({
   el: '#app',
-  render: h => h(Nav)
+  render: h => h(App)
 })

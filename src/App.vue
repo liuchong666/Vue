@@ -1,5 +1,7 @@
+
 <template>
   <div id="app">
+    <Nav></Nav>
     <img src="./assets/logo.png">
     <div>
       <el-button @click="startHacking">Start</el-button>
@@ -8,7 +10,9 @@
 </template>
 
 <script>
+import Nav from './components/Nav/Nav.vue' 
 export default {
+  components:{Nav},
   methods: {
     startHacking () {
       this.$notify({
